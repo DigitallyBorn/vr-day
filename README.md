@@ -2,7 +2,7 @@
 I took my HTC vive into the office for a day of fun in VR. To help, I made this little site with information about the games I owned, so my coworkers could shop for the games they wanted to try leading up to the VR day.
 
 The steps I took:
-1. [Find my steam id](steamidfinder.com)
+1. [Find my steam id](http://steamidfinder.com)
 1. Using the Steam API to pull json data about the games I owned.
     API endpoint: `http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key={{api_key}}&steamid=76561197960434622&format=json&include_appinfo=1`
 1. Generate Jekyll site
