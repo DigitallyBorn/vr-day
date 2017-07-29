@@ -1,0 +1,10 @@
+# Site settings
+title: Rigor VR Day YAY
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
